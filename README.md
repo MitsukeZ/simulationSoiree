@@ -17,14 +17,14 @@ A 50 % de plus, la personne aura une chance sur 5 de provoquer un évènement a
 
 	« Fatigue Intense. La tendance de la personne à boire passe à 0. »
 
-« CUL SEC ! ON TRIPLE LA QUANTITE INGEREE  ! »
+	« CUL SEC ! ON TRIPLE LA QUANTITE INGEREE  ! »
 
-« BLEUUUUURG ! Prenom a vomi ! Il perd 20 unités d’alcool bues»
+	« BLEUUUUURG ! Prenom a vomi ! Il perd 20 unités d’alcool bues»
 
-« Areuh Areuh… Son ex manque beaucoup a prenom, il double la quantité pour oublier »
+	« Areuh Areuh… Son ex manque beaucoup a prenom, il double la quantité pour oublier »
 
-« Oh nn, prenom et personne random sont en train de se battre ! Ouf ils arrêtent, les deux prennent une petite bière pour se pardonner (+10 unités) »
+	« Oh nn, prenom et personne random sont en train de se battre ! Ouf ils arrêtent, les deux prennent une petite bière pour se pardonner (+10 unités) »
 
-« Pause repas, tout le monde perd le quart de leur quantité d’alcool ingérée »
+	« Pause repas, tout le monde perd le quart de leur quantité d’alcool ingérée »
 
 Lorsque la qte ingérée dépasse le double de la résistance à l’alcool, la personne à une chance sur 3 de faire un coma éthylique, ce qui marquera la fin de la soirée.
