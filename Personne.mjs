@@ -20,13 +20,19 @@ class Personne {
     getResistanceAlcool() {return this.resistanceAlcool;}
     getTendanceAlcool()   {return this.tendanceAlcool;  }
 
+    //Setters
+    setNom(nom)                           {this.nom              = nom;             }
+    setAlcoolBu(alcoolBu)                 {this.alcoolBu         = alcoolBu;        }
+    setResistanceAlcool(resistanceAlcool) {this.resistanceAlcool = resistanceAlcool;}
+    setTendanceAlcool(tendanceAlcool)     {this.tendanceAlcool   = tendanceAlcool;             }
+
     //Méthodes
-    boire() {
+    boire(multiplicateur = 1) {
         if (this.tendanceAlcool <= 0) {return;}
         
-        let bonus = 10 - Math.floor(Math.random() * 20);
+        let bonus = 10 - Math.floor(Math.random() * 21);
 
-        this.alcoolBu += this.tendanceAlcool + bonus;
+        this.alcoolBu += (this.tendanceAlcool + bonus) * multiplicateur;
     }
 
     estBourre() {
@@ -39,9 +45,17 @@ class Personne {
         return (this.alcoolBu - this.resistanceAlcool) / 100;
     }
 
-    show() {
+    toString() {
         return this.nom + " " + this.alcoolBu + "/" + this.resistanceAlcool + " unités d'alcool bues";
     }
+
+    comaEthylique() {
+        let chance = Math.floor(Math.random() * 3);
+
+        return (chance == 2);
+    }
+
+    
 
 }
 
