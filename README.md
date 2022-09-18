@@ -15,7 +15,7 @@ Si la quantité d’alcool bue dépasse la résistance à l’alcool de la perso
 
 A 50 % de plus, la personne aura une chance sur 5 de provoquer un évènement aléatoire parmi les suivants :
 
-	« Fatigue Intense. La tendance de la personne à boire passe à 0. »
+	« Fatigue Intense. La tendance de la personne à boire est réduite de moitié. »
 
 	« CUL SEC ! ON TRIPLE LA QUANTITE INGEREE  ! »
 

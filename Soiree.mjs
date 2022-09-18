@@ -31,11 +31,11 @@ class Soiree {
         let idEvenement = Math.floor(Math.random() * 5);
     
         switch (idEvenement) {
-            case 0: fatigue(personne); break;
-            case 1: vomi(personne);    break;
-            case 2: manque(personne);  break;
-            case 3: baston(personne);  break;
-            case 4: repas();           break;
+            case 0: this.fatigue(personne); break;
+            case 1: this.vomi(personne);    break;
+            case 2: this.manque(personne);  break;
+            case 3: this.baston(personne);  break;
+            case 4: this.repas();           break;
         }
         
         return;
@@ -45,7 +45,7 @@ class Soiree {
     //Méthodes
     fatigue(personne) {
         console.log(personne.getNom() + " est fatigué, sa tendance à boire est réduite de moitié...")
-        personne.setTendanceAlcool(personne.getTendanceAlcool/2);
+        personne.setTendanceAlcool(personne.getTendanceAlcool()/2);
     }
 
     vomi(personne)    {
@@ -68,7 +68,7 @@ class Soiree {
         console.log("Ouf ! Ils s'arrêtent ! Une petite bière pour se pardonner");
 
         personne.setAlcoolBu(personne.getAlcoolBu() + 10);
-        this.tabPersonnes[autrePersonne].setAlcoolBu(this.tabPersonnes[autrePersonne].getAlcoolBu + 10);
+        this.tabPersonnes[autrePersonne].setAlcoolBu(this.tabPersonnes[autrePersonne].getAlcoolBu() + 10);
     }
 
     repas() {
@@ -94,7 +94,7 @@ class Soiree {
         console.log("Tout les invités sont là, la soirée peut commencer !");
         
         while (soireeEnCours) {
-            this.afficherPersonnes();
+            //this.afficherPersonnes();
             for (let pers of this.tabPersonnes) {
                 pers.boire();
                 if (this.gererEvenements(pers) == "fin") {

@@ -42,7 +42,7 @@ class Personne {
     getPourcentageIvresse() {
         if (!this.estBourre()) {return 0;}
 
-        return (this.alcoolBu - this.resistanceAlcool) / 100;
+        return ((this.alcoolBu - this.resistanceAlcool)/this.resistanceAlcool)*100;
     }
 
     toString() {
