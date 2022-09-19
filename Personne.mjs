@@ -24,7 +24,7 @@ class Personne {
     setNom(nom)                           {this.nom              = nom;             }
     setAlcoolBu(alcoolBu)                 {this.alcoolBu         = alcoolBu;        }
     setResistanceAlcool(resistanceAlcool) {this.resistanceAlcool = resistanceAlcool;}
-    setTendanceAlcool(tendanceAlcool)     {this.tendanceAlcool   = tendanceAlcool;             }
+    setTendanceAlcool(tendanceAlcool)     {this.tendanceAlcool   = tendanceAlcool;  }
 
     //Méthodes
     boire(multiplicateur = 1) {
